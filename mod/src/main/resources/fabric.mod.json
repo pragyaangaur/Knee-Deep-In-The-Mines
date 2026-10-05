@@ -2,8 +2,8 @@
 	"schemaVersion": 1,
 	"id": "doomcraft",
 	"version": "${version}",
-	"name": "DoomCraft",
-	"description": "Adds a Doom arcade cabinet to Minecraft. The real Doom engine runs on the cabinet's screen, and using the cabinet lets you play it.",
+	"name": "Knee-Deep in the Mines",
+	"description": "Doom and Minecraft collide. Doom's own game file is merged into Minecraft, so you walk its levels as Steve and fight its monsters with its guns.",
 	"authors": [
 		"Pragyaan Gaur"
 	],
