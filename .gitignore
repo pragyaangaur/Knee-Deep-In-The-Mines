@@ -1,0 +1,10 @@
+# Build output and caches
+mod/.gradle/
+mod/build/
+mod/run/
+engine/build/
+.DS_Store
+
+# Local files that are not part of the project
+launcher_profiles.backup.json
+/wads/
