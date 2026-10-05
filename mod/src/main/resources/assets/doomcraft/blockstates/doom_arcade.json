@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "doomcraft:block/doom_arcade" },
+    "facing=east": { "model": "doomcraft:block/doom_arcade", "y": 90 },
+    "facing=south": { "model": "doomcraft:block/doom_arcade", "y": 180 },
+    "facing=west": { "model": "doomcraft:block/doom_arcade", "y": 270 }
+  }
+}

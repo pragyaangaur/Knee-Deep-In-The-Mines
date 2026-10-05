@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "doomcraft:block/doom_arcade_front",
+    "side": "doomcraft:block/doom_arcade_side",
+    "top": "doomcraft:block/doom_arcade_top"
+  }
+}

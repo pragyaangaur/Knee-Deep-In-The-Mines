@@ -1,0 +1,9 @@
+{
+	"required": true,
+	"package": "dev.pragyaan.doomcraft.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": ["MouseHandlerMixin", "MinecraftAttackMixin"],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
