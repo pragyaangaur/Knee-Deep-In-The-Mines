@@ -1,0 +1,21 @@
+{
+  "block.doomcraft.doom_arcade": "Doom Arcade",
+  "key.doomcraft.play": "Play Doom",
+  "key.category.doomcraft.doomcraft": "DoomCraft",
+  "screen.doomcraft.doom": "Doom",
+  "screen.doomcraft.hint": "Press ` to return to Minecraft. Esc opens the Doom menu.",
+  "item.doomcraft.doom_chainsaw": "Chainsaw",
+  "item.doomcraft.doom_pistol": "Pistol",
+  "item.doomcraft.doom_shotgun": "Shotgun",
+  "item.doomcraft.doom_chaingun": "Chaingun",
+  "item.doomcraft.doom_rocket_launcher": "Rocket Launcher",
+  "item.doomcraft.doom_plasma_rifle": "Plasma Rifle",
+  "item.doomcraft.doom_bullets": "Bullets",
+  "item.doomcraft.doom_shells": "Shotgun Shells",
+  "item.doomcraft.doom_rockets": "Rockets",
+  "item.doomcraft.doom_cells": "Energy Cells",
+  "block.doomcraft.doom_solid": "Doom Wall",
+  "entity.doomcraft.doom_monster": "Doom Monster",
+  "entity.doomcraft.doom_ball": "Fireball",
+  "entity.doomcraft.doom_pickup": "Doom Pickup"
+}

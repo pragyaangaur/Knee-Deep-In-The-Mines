@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "doomcraft",
+	"version": "${version}",
+	"name": "DoomCraft",
+	"description": "Adds a Doom arcade cabinet to Minecraft. The real Doom engine runs on the cabinet's screen, and using the cabinet lets you play it.",
+	"authors": [
+		"Pragyaan Gaur"
+	],
+	"license": "GPL-2.0-or-later",
+	"icon": "assets/doomcraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.pragyaan.doomcraft.DoomCraft"
+		],
+		"client": [
+			"dev.pragyaan.doomcraft.client.DoomCraftClient"
+		]
+	},
+	"mixins": [
+		"doomcraft.mixins.json",
+		{
+			"config": "doomcraft.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
