@@ -6,7 +6,8 @@
   "environment": "*",
   "entrypoints": {
     "fabric-client-gametest": [
-      "dev.pragyaan.doomcraft.test.DoomPlaythroughTest"
+      "dev.pragyaan.doomcraft.test.DoomPlaythroughTest",
+      "dev.pragyaan.doomcraft.test.DoomTrailerTest"
     ],
     "fabric-gametest": [
       "dev.pragyaan.doomcraft.world.DoomServerTest"

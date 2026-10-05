@@ -1,5 +1,7 @@
 # Knee-Deep in the Mines
 
+![Steve fighting a zombieman, an imp and a demon in E1M1](docs/gameplay.gif)
+
 Doom and Minecraft collide. This project takes Doom's own game file, the WAD that holds every map, monster, texture, sound and song, and merges it straight into Minecraft. Nothing is remade by hand. Doom's levels are read from the original data and rebuilt as a world you walk into as Steve, with your hearts, hotbar, inventory and Minecraft's physics. Doom's monsters hunt you inside it, and Doom's guns end up in your hotbar.
 
 It was inspired by the recent wave of people putting one game inside another, such as Spider-Man inside Arkham Knight and RDR2 inside GTA V. This is the same idea for Doom and Minecraft.
@@ -34,7 +36,7 @@ Clone with `git clone --recursive`, because the arcade's Doom engine is built fr
 
 ## Tests
 
-`./gradlew runGameTest` runs headless server tests. They build E1M1, check its monsters, pickups and start position, and then open and close a door. They also run E1M2's lift, keycard door and donut, E1M3's lights going out, and a barrel explosion. `./gradlew runClientGameTest` opens a real game window and plays through E1M1 with real inputs. It enters through the arcade, checks hunger, opens the first door with a right-click and walks through it, fires the shotgun, watches an imp throw a fireball, checks falling, takes a pickup, presses the exit switch into E1M2, dies and respawns there, and leaves. Both pass on 5 October 2026.
+`./gradlew runGameTest` runs headless server tests. They build E1M1, check its monsters, pickups and start position, and then open and close a door. They also run E1M2's lift, keycard door and donut, E1M3's lights going out, and a barrel explosion. `./gradlew runClientGameTest` opens a real game window and plays through E1M1 with real inputs. It enters through the arcade, checks hunger, opens the first door with a right-click and walks through it, fires the shotgun, watches an imp throw a fireball, checks falling, takes a pickup, presses the exit switch into E1M2, dies and respawns there, and leaves. Both pass on 5 October 2026. The clip at the top of this page was recorded by `DoomTrailerTest`, which saves one frame per tick when `DOOMCRAFT_RECORD` names a folder and does nothing otherwise.
 
 ## Limitations
 
