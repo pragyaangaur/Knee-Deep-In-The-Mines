@@ -127,6 +127,9 @@ public class DoomBall extends Projectile {
 			Entity owner = getOwner();
 			float damage = (random.nextInt(8) + 1) * kind().damage;
 			target.hurtServer(level, damageSources().mobProjectile(this, owner instanceof LivingEntity l ? l : null), damage / 5f);
+			// Burst just short of the target, as Doom does, so it isn't drawn inside the victim's head.
+			Vec3 back = getDeltaMovement().lengthSqr() > 1e-6 ? getDeltaMovement().normalize().scale(0.6) : Vec3.ZERO;
+			setPos(position().subtract(back));
 		}
 		if (kind() == Kind.ROCKET) {
 			splash(level);

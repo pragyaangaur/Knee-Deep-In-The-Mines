@@ -127,6 +127,10 @@ public final class DoomEntityRenderers {
 
 		@Override
 		public void submit(SpriteState state, PoseStack pose, SubmitNodeCollector collector, CameraRenderState camera) {
+			// A burst right at the camera would fill the screen, so the hurt flash shows that hit instead.
+			if (state.distanceToCameraSq < 1.0) {
+				return;
+			}
 			// Fireball sprites are centred on the ball rather than standing on it.
 			pose.pushPose();
 			pose.translate(0, -0.3, 0);
