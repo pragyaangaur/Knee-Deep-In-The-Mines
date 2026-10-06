@@ -8,3 +8,6 @@ engine/build/
 # Local files that are not part of the project
 launcher_profiles.backup.json
 /wads/
+
+# Agent notes, kept local
+AGENTS.md
